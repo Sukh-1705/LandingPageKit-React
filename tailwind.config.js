@@ -1,0 +1,105 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f8f9fa',
+          100: '#e9ecef',
+          200: '#dee2e6',
+          300: '#ced4da',
+          400: '#adb5bd',
+          500: '#6c757d',
+          600: '#495057',
+          700: '#343a40',
+          800: '#212529',
+          900: '#000000',
+        },
+        gray: {
+          50: '#f8f9fa',
+          100: '#e9ecef',
+          200: '#dee2e6',
+          300: '#ced4da',
+          400: '#adb5bd',
+          500: '#6c757d',
+          600: '#495057',
+          700: '#343a40',
+          800: '#212529',
+          900: '#000000',
+        },
+        success: {
+          50: '#d1f2eb',
+          100: '#a3e4d7',
+          200: '#75d6c3',
+          300: '#47c8af',
+          400: '#19ba9b',
+          500: '#00a67e',
+          600: '#008f6a',
+          700: '#007856',
+          800: '#006142',
+          900: '#004a2e',
+        },
+        warning: {
+          50: '#fff3cd',
+          100: '#ffeaa7',
+          200: '#ffe082',
+          300: '#ffd54f',
+          400: '#ffca28',
+          500: '#ffc107',
+          600: '#ffb300',
+          700: '#ffa000',
+          800: '#ff8f00',
+          900: '#ff6f00',
+        },
+        error: {
+          50: '#f8d7da',
+          100: '#f1b0b7',
+          200: '#ea898f',
+          300: '#e36267',
+          400: '#dc3545',
+          500: '#c82333',
+          600: '#b02a37',
+          700: '#a71e2a',
+          800: '#9c1c24',
+          900: '#7a1e1e',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-in-out',
+        'slide-up': 'slideUp 0.5s ease-out',
+        'bounce-gentle': 'bounceGentle 2s infinite',
+        'gradient': 'gradient 3s ease infinite',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        bounceGentle: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5px)' },
+        },
+        gradient: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+    },
+  },
+  plugins: [],
+} 
