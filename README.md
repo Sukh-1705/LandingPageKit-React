@@ -108,21 +108,6 @@ The built files will be in the `dist/` directory, ready for deployment.
 
 ## 🌐 Deployment
 
-### Netlify
-1. Connect your repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-
-### Vercel
-1. Import your repository to Vercel
-2. Vercel will automatically detect the Vite configuration
-
-### Other Platforms
-Upload the contents of the `dist/` folder to any static hosting service.
-
-## 📝 License
-
-This template is licensed under the MIT License. See LICENSE file for details.
 
 ## 🤝 Support
 
