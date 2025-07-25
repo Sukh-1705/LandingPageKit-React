@@ -106,12 +106,10 @@ npm run build
 
 The built files will be in the `dist/` directory, ready for deployment.
 
-## 🌐 Deployment
-
 
 ## 🤝 Support
 
-
+https://sukdevbansal-myresume.netlify.app
 
 ## 🎯 Perfect For
 
